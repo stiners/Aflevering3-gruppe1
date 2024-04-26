@@ -1,0 +1,111 @@
+.title {
+  color: #46344e;
+  font-size: 125px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  margin-top: 170px;
+  margin-left: 8px;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(250, 237, 38, 0.7),
+    -1px -1px 1px rgba(250, 237, 38, 0.7), 1px -1px 1px rgba(250, 237, 38, 0.7),
+    -1px 1px 1px rgba(250, 237, 38, 0.7);
+}
+
+.div4 {
+  background-color: #46344e;
+  box-shadow: 0 0 5px 10px rgba(70, 52, 78, 1);
+  height: 385px;
+  left: 0;
+  margin-top: 192px;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.div5 {
+  background-color: rgba(70, 52, 78, 0.5);
+  box-shadow: 0 0 5px 10px rgba(70, 52, 78, 0.5);
+  height: 520px;
+  left: 0;
+  margin-top: 125px;
+  position: fixed;
+  width: 100%;
+  z-index: -2;
+}
+
+.title span {
+  color: #faed26;
+  text-shadow: 2px 2px 2px #9d8d8f;
+}
+
+body {
+  background-color: rgba(70, 52, 78, 0.9);
+}
+
+#dropdown {
+  appearance: none;
+  background-color: #5a5560;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: #9d8d8f;
+  border-style: solid;
+  box-shadow: 0 0 2px 5px #9d8d8f;
+  color: #faed26;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin-top: 200px;
+  margin-left: 150px;
+  outline: none; /*LAV EPIC OUTLINE */
+  padding: 20px;
+  padding-left: 25px;
+  text-align: center;
+  width: 356px;
+}
+
+p {
+  color: #faed26;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.div1 {
+  grid-area: 1 / 1 / 5 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+.div3 {
+  grid-area: 3 / 2 / 5 / 3;
+}
+.div4 {
+  grid-area: 2 / 1 / 4 / 3;
+}
+.div5 {
+  grid-area: 2 / 1 / 4 / 3;
+}
+
+#result {
+  background-color: #5a5560;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: #9d8d8f;
+  border-style: solid;
+  box-shadow: 0 0 2px 5px #9d8d8f;
+  margin-top: -30px;
+  margin-bottom: 115px;
+  margin-left: 150px;
+  padding: 1px;
+  width: 350px;
+}
